@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>access array values</h2>
+    <p id="demo"></p>
+    <script>
+        const myJSON = '{"name":"ANKIT","age":38,"college":["KIET","AKG","ABES"]}';
+        const myobj = JSON.parse(myJSON);
+//        document.getElementById("demo").innerHTML=myobj.college[0];
+//        document.getElementById("demo").innerHTML=myobj.college[1];
+//        document.getElementById("demo").innerHTML=myobj.college[2];
+          document.getElementById("demo").innerHTML=myobj.college[3];
+    </script>
+</body>
+</html>
