@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>create a JSON string from a javascript object</h2>
+    <p id="demo"></p>
+    <script>
+        var jsononj=[{
+            "name":"ABC",
+            "umar":"3",
+            "class":"4"
+        },
+        {
+            "name":"MNO",
+            "umar":"6",
+            "class":"7"
+        },
+        {
+            "name":"XYZ",
+            "umar":"2",
+            "class":"8"
+        }
+    ];
+    for(let i=0;i<jsononj.length;i++)
+    {
+        document.write(jsononj[i].name+"</br>");
+    }
+    document.write(jsononj[0].name+"  ");
+    document.write(jsononj[1].name+"  ");
+    document.write(jsononj[2].name+"  ");
+    </script>
+</body>
+</html>
